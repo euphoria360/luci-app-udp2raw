@@ -5,15 +5,18 @@ local raw_modes = {
 	"faketcp",
 	"udp",
 	"icmp",
+	"easy-faketcp",
 }
 
 local cipher_modes = {
 	"aes128cbc",
+	"aes128cfb",
 	"xor",
 	"none",
 }
 
 local auth_modes = {
+	"hmac_sha1",
 	"md5",
 	"crc32",
 	"simple",
