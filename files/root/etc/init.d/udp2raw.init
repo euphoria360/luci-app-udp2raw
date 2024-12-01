@@ -87,10 +87,10 @@ validate_server_section() {
 		'server_port:port:8080' \
 		'listen_addr:ipaddr:127.0.0.1' \
 		'listen_port:port:2080' \
-		'raw_mode:or("faketcp", "udp", "icmp"):faketcp' \
+		'raw_mode:or("faketcp", "easy-faketcp", "udp", "icmp"):faketcp' \
 		'key:string' \
-		'cipher_mode:or("aes128cbc", "xor", "none"):aes128cbc' \
-		'auth_mode:or("md5", "crc32", "simple", "none"):md5' \
+		'cipher_mode:or("aes128cbc", "aes128cfb", "xor", "none"):aes128cbc' \
+		'auth_mode:or("hmac_sha1", "md5", "crc32", "simple", "none"):md5' \
 		'auto_rule:bool:1' \
 		'keep_rule:bool:0' \
 		'seq_mode:range(0,4)' \
