@@ -1,7 +1,8 @@
 # luci-app-udp2raw
-OpenWRT 23.05  [udp2raw-tunnel](https://github.com/wangyu-/udp2raw-tunnel) LuCI
+Updated udp2raw-tunnel and luci-app-udp2raw for latest OpenWRT versions (Currently 23.05.05)
+Based on [udp2raw-tunnel by wangyu](https://github.com/wangyu-/udp2raw-tunnel) LuCI
 
-[wiki](https://github.com/euphoria360/luci-app-udp2raw/wiki)
+Visit [wiki](https://github.com/euphoria360/luci-app-udp2raw/wiki) for further info on how to compile for your router.
 
 ![](images/screenshot-1.png)
 
